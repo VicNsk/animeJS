@@ -12,9 +12,9 @@ btnCloseSearch.addEventListener('click', () => {
 })
 
 inputSearch.addEventListener('keydown', () => {
-	if (event.key === 'Enter' && inputSearch.value.length > 0) {
-		console.log(inputSearch.value)
-		inputSearch.value = ''
-	}
-	// console.log(inputSearch.value)
+	// if (event.key === 'Enter' && inputSearch.value.length > 0) {
+	// 	console.log(inputSearch.value)
+	// 	inputSearch.value = ''
+	// }
+	console.log(inputSearch.value)
 })
